@@ -16,7 +16,7 @@ h1 {
     font-family: Roboto;
     font-weight: 900;
     font-size: 60px;
-    margin: 0 20%;
+    margin: 0 18%;
     text-align: center;
     line-height: 1.5;
     color: #fff
@@ -29,7 +29,7 @@ h2 {
     margin: 0 0 10px;
     text-align: center;
     line-height: 1.5;
-    color: #fff
+    color: #fff;
 }
 
 h3 {
@@ -39,7 +39,7 @@ h3 {
     margin: 0 0 25px;
     text-align: center;
     line-height: 1.5;
-    color: #bdd96b
+    color: #fff;
 }
 
 .primary {
@@ -48,7 +48,7 @@ h3 {
     padding: 0;
     border: 0;
     margin: 0 0 60px;
-    background: #bdd96b;
+    background: #fff;
     display: inline-block
 }
 
@@ -58,8 +58,8 @@ h3 {
     padding: 0;
     border: 0;
     margin: 0 0 60px;
-    background: #bdd96b;
-    display: inline-block
+    background: #fff;
+    display: inline-block;
 }
 
 .section-padding {
@@ -332,7 +332,7 @@ h3 {
 }
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
-    color: #bdd96b;
+    color: #fff;
     background-color: transparent
 }
 
@@ -354,7 +354,7 @@ h3 {
     content: '';
     width: 15px;
     height: 3px;
-    background: #bdd96b;
+    background: #fff;
     position: absolute;
     top: 120%;
     left: 0;
@@ -369,7 +369,7 @@ h3 {
     content: '';
     width: 15px;
     height: 3px;
-    background: #bdd96b;
+    background: #fff;
     position: absolute;
     top: 120%;
     right: 0;
@@ -381,6 +381,7 @@ h3 {
 }
 
 ul li a {
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     position: relative
@@ -431,7 +432,7 @@ ul li a:after {
 .bar1,.bar2,.bar3 {
     width: 35px;
     height: 2px;
-    background-color: #bdd96b;
+    background-color: #fff;
     margin: 6px 0;
     transition: .4s;
     -o-transition: .4s;
@@ -557,6 +558,11 @@ ul li a:after {
     }
 }
 
+.instagram{
+    position: relative;
+    padding: 70px 0;
+}
+
 .services {
     background: #272e32;
     text-align: center;
@@ -622,8 +628,8 @@ icon-holder {
 
 .back {
     padding: 40px;
-    background: #bdd96b;
-    color: #fff;
+    background: #fff;
+    color: #272e32;
     height: 282px;
     width: 100%;
     position: relative;
@@ -673,7 +679,7 @@ icon-holder {
 .about-us-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(39,46,50,0.5)
+    background: rgba(39,46,50,0.65)
 }
 
 .about-us-content {
@@ -729,268 +735,6 @@ icon-holder {
     color: #bdd96b
 }
 
-.team {
-    background: #272e32;
-    text-align: center;
-    padding: 100px 0 70px;
-    overflow: hidden
-}
-
-.team .primary {
-    margin-right: 38px
-}
-
-.item-team {
-    position: relative;
-    text-align: center;
-    height: 266px;
-    width: 100%;
-    margin-bottom: 30px
-}
-
-.front-team {
-    width: 100%;
-    height: 266px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 2s;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: perspective(1000px) rotateY(0deg);
-    -o-transform: perspective(1000px) rotateY(0deg);
-    -moz-transform: perspective(1000px) rotateY(0deg);
-    -webkit-transform: perspective(1000px) rotateY(0deg);
-    z-index: 2
-}
-
-.item-team:hover .front-team {
-    transform: perspective(1000px) rotateY(-180deg);
-    -o-transform: perspective(1000px) rotateY(-180deg);
-    -moz-transform: perspective(1000px) rotateY(-180deg);
-    -webkit-transform: perspective(1000px) rotateY(-180deg);
-    z-index: 2
-}
-
-icon-holder {
-    position: relative;
-    top: 13px
-}
-
-.front-team .img-team-1 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/1.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.front-team .img-team-2 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/2.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.front-team .img-team-3 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/3.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.front-team .img-team-4 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/4.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.front-team .img-team-5 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/5.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.front-team .img-team-6 {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: url('../img/team/6.jpg') no-repeat center center;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.back-team {
-    width: 100%;
-    height: 266px;
-    position: relative;
-    top: 0;
-    left: 0;
-    background: #bdd96b;
-    transition: 2s;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: perspective(1000px) rotateY(180deg);
-    -o-transform: perspective(1000px) rotateY(180deg);
-    -moz-transform: perspective(1000px) rotateY(180deg);
-    -webkit-transform: perspective(1000px) rotateY(180deg);
-    z-index: 1
-}
-
-.item-team:hover .back-team {
-    transform: perspective(1000px) rotateY(0deg);
-    -o-transform: perspective(1000px) rotateY(0deg);
-    -moz-transform: perspective(1000px) rotateY(0deg);
-    -webkit-transform: perspective(1000px) rotateY(0deg);
-    z-index: 1
-}
-
-.back-team .text-holder {
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    width: 100%;
-    padding: 40px
-}
-
-.back-team h3 {
-    color: #272e32
-}
-
-.back-team p {
-    color: #fff;
-    margin-bottom: 30px
-}
-
-.social-team ul {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-.social-team ul li {
-    display: inline-block;
-    margin-right: 15px
-}
-
-.social-team ul li a {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #272e32;
-    transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out
-}
-
-.social-team ul li a:hover {
-    color: #fff
-}
-
-.prices {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background: url('../img/background/prices-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.prices .primary {
-    margin-right: 40px
-}
-
-.prices-overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(39,46,50,0.5)
-}
-
-.prices ul {
-    list-style: none;
-    text-align: center;
-    margin: 0 15px;
-    padding: 0;
-    display: inline-block;
-    border-top: 3px solid #bdd96b;
-    border-left: 3px solid #bdd96b
-}
-
-.prices ul li {
-    float: left;
-    border-right: 3px solid #bdd96b;
-    border-bottom: 3px solid #bdd96b
-}
-
-.text-prices {
-    padding: 40px 0
-}
-
-.prices h3 {
-    margin: 0 0 30px
-}
-
-.prices p {
-    color: #fff;
-    margin: 0
-}
-
-.appointment {
-    background: #272e32;
-    text-align: center
-}
-
-.appointment .primary {
-    margin-right: 190px
-}
-
-.appointment-up {
-    margin-bottom: 30px;
-    overflow: hidden
-}
-
-.appointment h3 {
-    text-align: left
-}
-
-.appointment-text {
-    color: #fff
-}
-
-.appointment-text p {
-    margin: 0 0 30px 0
-}
-
 .text-margin {
     margin-bottom: 0
 }
@@ -1014,203 +758,6 @@ input[type="date"],input[type="text"] {
 
 ::-moz-placeholder {
     color: #bdd96b
-}
-
-.datepicker {
-    font-family: roboto;
-    font-size: 14px;
-    line-height: 1.5;
-    height: 65px;
-    width: 100%;
-    color: #bdd96b;
-    margin-top: 0;
-    margin-bottom: 30px;
-    border-radius: 0;
-    padding-left: 25px;
-    background: transparent;
-    border: 3px solid #bdd96b
-}
-
-.datepicker:before {
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 15px solid rgba(0,0,0,0.2);
-    top: -11px;
-    left: 9px
-}
-
-.datepicker:after {
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    border-bottom: 14px solid #bdd96b;
-    top: -10px;
-    left: 10px
-}
-
-.dropdown-menu {
-    border-radius: 0;
-    background-color: #bdd96b;
-    padding: 5px 0;
-    height: 274px;
-    margin-top: 10px;
-    width: 263px
-}
-
-.datepicker thead tr:first-child th:hover {
-    background: #272e32
-}
-
-.datepicker td span:hover {
-    background: #272e32
-}
-
-.datepicker table {
-    color: #fff
-}
-
-.datepicker td.day:hover {
-    background: #272e32
-}
-
-.datepicker td.active:hover,.datepicker td.active:hover:hover,.datepicker td.active:focus,.datepicker td.active:hover:focus,.datepicker td.active:active,.datepicker td.active:hover:active,.datepicker td.active.active,.datepicker td.active:hover.active,.datepicker td.active.disabled,.datepicker td.active:hover.disabled,.datepicker td.active[disabled],.datepicker td.active:hover[disabled] {
-    color: #bdd96b;
-    background-color: #272e32
-}
-
-.form-select select {
-    height: 42px;
-    width: 100%;
-    color: #bdd96b;
-    padding: 0 25px;
-    position: relative;
-    z-index: 2;
-    margin-bottom: 30px;
-    background: transparent;
-    border: 3px solid #bdd96b;
-    appearance: none;
-    -o-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none
-}
-
-.form-select:after {
-    content: '\f107';
-    font-family: 'FontAwesome';
-    display: block;
-    color: #bdd96b;
-    position: absolute;
-    top: 10px;
-    right: 40px;
-    z-index: 1
-}
-
-select option {
-    color: #fff;
-    background: #bdd96b
-}
-
-input[type="email"] {
-    font-family: roboto;
-    font-size: 14px;
-    line-height: 1.5;
-    height: 42px;
-    width: 100%;
-    color: #bdd96b;
-    margin-bottom: 30px;
-    padding: 0 25px;
-    background: transparent;
-    border: 3px solid #bdd96b
-}
-
-.appointment textarea {
-    height: 174px;
-    width: 100%;
-    color: #bdd96b;
-    font-family: roboto;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 25px;
-    background: transparent;
-    border: 3px solid #bdd96b
-}
-
-input[type="Submit"] {
-    height: 174px;
-    width: 100%;
-    color: #fff;
-    font-family: roboto;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 1.5;
-    padding: 25px;
-    background: #bdd96b;
-    border: 3px solid #bdd96b;
-    transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out
-}
-
-input[type="Submit"]:hover {
-    color: #bdd96b;
-    background: transparent;
-    border: 3px solid #bdd96b
-}
-
-.testmonials {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background: url('../img/background/testmonials-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover
-}
-
-.testmonials .primary {
-    margin-right: 184px
-}
-
-.testmonials-overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(39,46,50,0.5)
-}
-
-.testmonials img {
-    height: 15px;
-    width: 150px;
-    border-radius: 50%;
-    margin: 0 auto 40px
-}
-
-.testmonials p {
-    color: #fff;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto
-}
-
-.carousel-indicators {
-    position: static;
-    width: 100%;
-    margin: 40px 0 0 auto
-}
-
-.carousel-indicators li {
-    height: 15px;
-    width: 15px;
-    margin: 0 3px;
-    border: 3px solid #bdd96b
-}
-
-.carousel-indicators .active {
-    height: 15px;
-    width: 15px;
-    margin: 0 3px;
-    border: 3px solid #bdd96b;
-    background: #bdd96b
 }
 
 .contact-us {
@@ -1275,13 +822,8 @@ input[type="Submit"]:hover {
     border: 3px solid #bdd96b
 }
 
-#map {
-    height: 400px;
-    margin-top: 30px
-}
-
 #scroll-top {
-    color: #bdd96b;
+    color: #fff;
     width: 50px;
     height: 50px;
     right: 15px;
@@ -1370,10 +912,6 @@ input[type="Submit"]:hover {
     padding: 0
 }
 
-.address ul li {
-    margin-bottom: 15px
-}
-
 .fa-address {
     color: #bdd96b;
     line-height: 1.5;
@@ -1382,11 +920,52 @@ input[type="Submit"]:hover {
 
 .address ul li {
     color: #fff;
-    margin-bottom: 25px
+    margin-bottom: 15px
 }
 
 .address ul li:last-child {
     margin-bottom: 0
+}
+
+.social-align{
+    margin: 0 30px;
+}
+
+.social h3{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.social .primary{
+    background: #fff;
+    float: left;
+    margin: 0 45px 35px 0;
+}
+
+.social .primary-right {
+    background: #fff;
+    margin: 0 0 35px;
+}
+
+.social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social ul li{
+    margin-right: 20px;
+    float: left;
+    font-size: 25px;
+
+}
+
+.social .insta i:hover{
+    color: #cd486b;
+}
+
+.social .whatsapp i:hover{
+    color: #25d366;
 }
 
 .instagram-feed h3 {
@@ -1415,7 +994,7 @@ input[type="Submit"]:hover {
 }
 
 #instafeed img {
-    height: 100px;
+    height: 200px;
     width: 100%;
     position: relative
 }
@@ -1438,25 +1017,68 @@ input[type="Submit"]:hover {
     }
 
     .footer-about-us,.address {
+        text-align: center;
         margin-bottom: 30px
     }
 
+    .footer-about-us .social{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .address h3{
+        text-align: center;
+    }
+
     .address-align {
+        text-align: center;
         margin: 0
     }
 
     .address .primary {
-        margin: 0 45px 0 0
+        margin-left: 100px;
     }
 
     .address ul {
-        padding-top: 36px
+        padding-top: 0;
+    }
+
+    .social h3{
+        text-align: center;
+    }
+    
+
+    .social-align{
+        text-align: center;
+        margin: 0;
+    }
+
+    .social .primary{
+        margin-left: 100px;
+    }
+
+    .social .primary-right{
+        
+    }
+
+    .social ul{
+        text-align: center;
+        width: 100%;
+        margin: 0 30%;
+    }
+
+    .social ul li{
+        float: left;
+        margin: 0 8%;
     }
 }
 
 @media(max-width: 767px) {
+
+
     h1 {
-        font-size:35px
+        font-size:35px;
+        margin: 0;
     }
 
     .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
@@ -1465,7 +1087,7 @@ input[type="Submit"]:hover {
         padding: 10px 0;
         width: 100%;
         text-align: center;
-        background-color: #bdd96b;
+        background-color: #272e32;
         position: fixed;
         right: 0;
         height: 100%!important;
@@ -1504,7 +1126,7 @@ input[type="Submit"]:hover {
     }
 
     .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover {
-        color: #272e32
+        color: #fff;
     }
 
     .navbar-default .navbar-nav>.active>a:before,.navbar-default .navbar-nav>.active>a:after {
@@ -1567,4 +1189,34 @@ input[type="Submit"]:hover {
         right: 40px;
         z-index: 5
     }
+}
+
+.slider{
+    display: block;
+    min-height: 345px;
+    max-width: 665px;
+    margin: auto;
+    border: 12px rgba(255,255,240,1) solid;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider ul{  
+    display: block;
+    height: auto;
+    max-width: 640px;
+    overflow:hidden}
+
+.slider>ul>li {
+    height: 320px;
+    float: left;
+    position: absolute;
+}
+
+.slider >ul>li>img {
+    margin: auto;
+    height: 100%;
 }
